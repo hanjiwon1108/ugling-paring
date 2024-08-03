@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 1211px;
+  height: 165.66px;
+  margin-top: 36px;
+}
+.nav {
+  width: 1211px;
+  height: 207.23;
+  margin-top: 64px;
+  display: flex;
+}
+.main {
+  width: 1211px;
+  height: 100vh;
+  margin-top: 64px;
+  display: flex;
+}
+.main1 {
+  width: 333px;
+  height: 100vh;
+  margin-top: 64px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  margin-bottom: 24px;
+}
+.category {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+.menu {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  color: var(--fifthary, #666);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+  background: var(--secondary, #fff);
+}
+.search {
+  display: flex;
+  width: 634px;
+  padding: 16px 28px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 4px solid #0eb400;
+  background: url("../image/search.svg") no-repeat;
+  background-position: right 26px center;
+  padding-right: 46px;
+}
+.profile {
+  width: 76px;
+  height: 76px;
+  border-radius: 100px;
+  background: #666;
+}
+.school {
+  width: 900.744px;
+  height: 207px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--thirdary, #e9e9e9);
+}
+.date {
+  width: 270.223px;
+  height: 206.918px;
+  flex-shrink: 0;
+  padding-left: 40.04px;
+}
+.item {
+  display: flex;
+  width: 284px;
+  padding: 24px 24px 24px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fff;
+}
+.item-image {
+  height: 225px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--thirdary, #e9e9e9);
+}
+.item-name {
+  color: var(--Black, #000);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  align-self: stretch;
+}
+.item-price {
+  color: var(--Black, #000);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+.item-star {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
