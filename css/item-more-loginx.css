@@ -55,11 +55,21 @@
   background-position: right 26px center;
   padding-right: 46px;
 }
-.profile {
-  width: 76px;
-  height: 76px;
-  border-radius: 100px;
-  background: #666;
+.log-in-button {
+  display: flex;
+  width: 150px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 5px solid var(--primary, #0eb400);
+  background-color: #fff;
+  color: var(--Black, #000);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .item-info {
   display: flex;

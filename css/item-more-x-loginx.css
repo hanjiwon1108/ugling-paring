@@ -55,11 +55,21 @@
   background-position: right 26px center;
   padding-right: 46px;
 }
-.profile {
-  width: 76px;
-  height: 76px;
-  border-radius: 100px;
-  background: #666;
+.log-in-button {
+  display: flex;
+  width: 150px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 5px solid var(--primary, #0eb400);
+  background-color: #fff;
+  color: var(--Black, #000);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .item-info {
   display: flex;
@@ -74,8 +84,22 @@
 .item {
   width: 450px;
   height: 450px;
+  flex-shrink: 0;
   border-radius: 20px;
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .item-ex {
   display: flex;
