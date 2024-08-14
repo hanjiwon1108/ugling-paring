@@ -15,21 +15,25 @@
         <input
           type="text"
           class="id-pw-input"
+          id="user-id"
           placeholder="아이디를 입력해주세요"
         />
         <span class="input-title">비밀번호</span>
         <input
           type="password"
           class="id-pw-input"
+          id="user-password"
           placeholder="비밀번호를 입력해주세요"
         />
       </div>
-      <span class="find-pw-id"
-        ><span id="find-pw-go">비밀번호 찾으러가기</span> |
-        <span id="go-sign-in">회원가입 하러가기</span></span
-      >
-      <button class="log-in-button">로그인</button>
+      <span class="find-pw-id">
+        <span id="find-pw-go">비밀번호 찾으러가기</span> |
+        <span id="go-sign-in">회원가입 하러가기</span>
+      </span>
+      <button class="log-in-button" id="login-button">로그인</button>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="../js/log-in.js"></script>
     <script src="../js/go-sign-in.js"></script>
   </body>
